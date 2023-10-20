@@ -26,11 +26,11 @@
                     <label for="genero" class="form-label">Género: </label>
                     <select class="form-select border-dark" id="genero" name="genero" aria-label="Default select example" {{-- required --}}>
                         <option value="">Seleccionar Género</option>
-                        <option value="Accion" {{old('genero',$serie->genero)=='Accion'?'selected':''}}>Acción</option>
+                        <option value="Acción" {{old('genero',$serie->genero)=='Accion'?'selected':''}}>Acción</option>
                         <option value="Comedia" {{old('genero',$serie->genero)=='Comedia'?'selected':''}}>Comedia</option>
                         <option value="Drama" {{old('genero',$serie->genero)=='Drama'?'selected':''}}>Drama</option>
                         <option value="Terror" {{old('genero',$serie->genero)=='Terror'?'selected':''}}>Terror</option>
-                        <option value="Ciencia Ficcion" {{old('genero',$serie->genero)=='Ciencia Ficcion'?'selected':''}}>Ciencia Ficción</option>
+                        <option value="Ciencia Ficción" {{old('genero',$serie->genero)=='Ciencia Ficcion'?'selected':''}}>Ciencia Ficción</option>
                     </select>
                     {!!$errors->first('genero','<small>:message</small><br>')!!}<br>
                 </div>

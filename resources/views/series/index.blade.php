@@ -34,7 +34,7 @@
                     <th>Descripción</th>
                     <th>Fecha de estreno</th>
                     <th class="col-1">Estrellas</th>
-                    <th>Genero</th>
+                    <th>Género</th>
                     <th>Precio de Alquiler</th>
                     <th class="text-center px-0 mx-0">ATP</th>
                     <th class="text-center px-0 mx-0">Estado</th>

@@ -30,7 +30,7 @@
                         <option value="Comedia" {{old('genero')=='Comedia'?'selected':''}}>Comedia</option>
                         <option value="Drama" {{old('genero')=='Drama'?'selected':''}}>Drama</option>
                         <option value="Terror" {{old('genero')=='Terror'?'selected':''}}>Terror</option>
-                        <option value="Ciencia Ficcion" {{old('genero')=='Ciencia Ficcion'?'selected':''}}>Ciencia Ficción</option>
+                        <option value="Ciencia Ficción" {{old('genero')=='Ciencia Ficcion'?'selected':''}}>Ciencia Ficción</option>
                     </select>
                     {!!$errors->first('genero','<small>:message</small><br>')!!}<br>
                 </div>
