@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -31,7 +31,7 @@
             <thead class="table-light">
                 <tr>
                     <th>Título</th>
-                    <th>Descripcion</th>
+                    <th>Descripción</th>
                     <th>Fecha de estreno</th>
                     <th class="col-1">Estrellas</th>
                     <th>Genero</th>

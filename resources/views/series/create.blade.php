@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,7 +14,7 @@
     <section class="m-0-auto  text-center">
         <form method="POST" action="{{route('series.store')}}" class=" mt-5 bg-white col-8 mx-auto rounded-3 align-items-center bg-form border border-2 border-dark justify-content-center">
             <legend class="bg-dark" style="color:rgb(150 150 150)">Registrar Equipo</legend>
-            @csrf 
+            @csrf @method("POST")
             <div class="row mx-auto col-11">
                 <div class="col-6">
                     <label for="titulo" class="form-label">Título: </label>
@@ -26,7 +26,7 @@
                     <label for="genero" class="form-label">Género: </label>
                     <select class="form-select border-dark" id="genero" name="genero" aria-label="Default select example" {{-- required --}}>
                         <option value="">Seleccionar Género</option>
-                        <option value="Accion" {{old('genero')=='Accion'?'selected':''}}>Acción</option>
+                        <option value="Accion" {{old('genero')=='Acción'?'selected':''}}>Acción</option>
                         <option value="Comedia" {{old('genero')=='Comedia'?'selected':''}}>Comedia</option>
                         <option value="Drama" {{old('genero')=='Drama'?'selected':''}}>Drama</option>
                         <option value="Terror" {{old('genero')=='Terror'?'selected':''}}>Terror</option>
